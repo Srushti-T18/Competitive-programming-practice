@@ -8,7 +8,6 @@ void rotate(vector<int>&a, int k){
     reverse(a.begin()+k, a.end());
     reverse(a.begin(), a.end());
 }
-
 int main(){
     int n, k; cin >> n >> k;
     vector<int>a(n);
