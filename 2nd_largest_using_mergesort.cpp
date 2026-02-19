@@ -45,6 +45,7 @@ int main(){
         cout << a[i] << " ";
     }
     cout << endl;
-    cout << "Second largest number is: " << a[1] << endl;
+    cout << "Second smallest number is: " << a[1] << endl;
+    cout << "Second largest number is: " << a[n-2] << endl;
     return 0;
 }
